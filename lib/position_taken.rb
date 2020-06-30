@@ -2,7 +2,7 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-index = input.i
+index = input_to_index.to_i
 
 def position_taken?(board, index)
   if board[0] == " " || ""
