@@ -2,6 +2,8 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+index = input.i
+
 def position_taken?(board, index)
   if board[0] == " " || ""
     FALSE
